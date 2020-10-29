@@ -1,13 +1,17 @@
+buildscript {
+  repositories {
+    maven {url 'http://developer.marklogic.com/maven2/'}
+  }
+}
+
 plugins {
     id 'java'
     // Gradle Properties plugin
     id 'net.saliman.properties' version '1.5.1'
 
-    // Data Hub plugin
-    id 'com.marklogic.ml-data-hub' version '5.2.3'
+    id "com.marklogic.ml-gradle" version "4.1.0"
 
     id "io.github.http-builder-ng.http-plugin" version "0.1.1"
-    id "org.ajoberstar.grgit" version "4.0.2"
 }
 
 repositories {
@@ -17,31 +21,19 @@ repositories {
 }
 
 configurations {
-    mlcp
+    mlcp {
+        // stop Gradle from complaining about "SLF4J: Class path contains multiple SLF4J bindings."
+        exclude group: 'ch.qos.logback', module: 'logback-classic'
+        exclude group: 'org.apache.avro', module: 'avro-tools'
+    }
 }
 
 dependencies {
     mlcp "com.marklogic:mlcp:10.0.4"
-    mlcp files("mlcp")
+    mlcp files("mlcp/conf")
+    mlcp files("mlcp/lib")
 
-    compile 'org.ajoberstar.grgit:grgit-core:4.0.3'
-
-    // this allows you to write custom java code that depends
-    // on the Data Hub Framework library
-    compile 'com.marklogic:marklogic-data-hub:${mlDHFVersion}'
-    compile 'com.marklogic:marklogic-xcc:10.0.4'
     compile 'io.github.http-builder-ng:http-builder-ng-CLIENT:1.0.4'
-}
-
-ext {
-    // Open the Git repository in the current directory.
-    git = org.ajoberstar.grgit.Grgit.open(dir: "${project.projectDir}/")
-    // Get commit id of HEAD.
-    gitRevision = git.head().id
-    // Get abbreviated commit Id of HEAD
-    gitAbbRevision = git.head().abbreviatedId
-    gitDescription = git.describe(longDescr: true)
-    projectVersion = "SCCSS-ONTOLOGY-1.0.0"
 }
 
 task loadConfiguration(type: com.marklogic.gradle.task.MlcpTask) {
