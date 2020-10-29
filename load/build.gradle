@@ -13,10 +13,8 @@ plugins {
 repositories {
     jcenter()
     maven { url 'https://dl.bintray.com/marklogic-community/Maven/' }
-	maven { url "http://developer.marklogic.com/maven2/" }
+    maven { url "http://developer.marklogic.com/maven2/" }
 }
-
-
 
 configurations {
     mlcp
@@ -26,7 +24,7 @@ dependencies {
     mlcp "com.marklogic:mlcp:10.0.4"
     mlcp files("mlcp")
 
-	compile 'org.ajoberstar.grgit:grgit-core:4.0.3'
+    compile 'org.ajoberstar.grgit:grgit-core:4.0.3'
 
     // this allows you to write custom java code that depends
     // on the Data Hub Framework library
@@ -37,7 +35,7 @@ dependencies {
 
 ext {
     // Open the Git repository in the current directory.
-	git = org.ajoberstar.grgit.Grgit.open(dir: "${project.projectDir}/")
+    git = org.ajoberstar.grgit.Grgit.open(dir: "${project.projectDir}/")
     // Get commit id of HEAD.
     gitRevision = git.head().id
     // Get abbreviated commit Id of HEAD
@@ -45,33 +43,6 @@ ext {
     gitDescription = git.describe(longDescr: true)
     projectVersion = "SCCSS-ONTOLOGY-1.0.0"
 }
-
-// Getting git tags info
-task gitInfo() {
-    doFirst {
-        println "Create gitInfo file"
-		def date = new Date()
-        def separator = System.getProperty('line.separator')
-        boolean success = new File("src/main/ml-modules/root/gitInfo.json").delete()
-        def file = new File("src/main/ml-modules/root/gitInfo.json")
-        file.write("{${separator}" +
-            "  \"projectVersion\": \"${projectVersion}-${gitAbbRevision}\",${separator}" +
-            "  \"description\": \"${gitDescription}\",${separator}" +
-			"  \"date\": \"${date.format('yyyy-MM-dd')}T${date.format('HH:mm:ss')}\",${separator}" +
-            "  \"gitCommit\": \"${gitRevision}\",${separator}" +
-            "  \"gitAbbreviatedCommit\": \"${gitAbbRevision}\"${separator}" +
-            "}${separator}"
-        )
-    }
-}
-
-// connect pwcGitInfo to mlDeploy and mlRedeploy
-mlDeployApp.dependsOn gitInfo
-
-// connect pwcGitInfo to mlLoadModules and mlReloadModules
-mlLoadModules.dependsOn gitInfo
-
-
 
 task loadConfiguration(type: com.marklogic.gradle.task.MlcpTask) {
     group 'Configuration'
@@ -125,14 +96,14 @@ task loadOntology(dependsOn: ['deleteOntology']) {
 }
 
 class DhfOntologyMlcpTask extends com.marklogic.gradle.task.MlcpTask {
-   DhfOntologyMlcpTask() {
+    DhfOntologyMlcpTask() {
         classpath = project.configurations.mlcp
         command = "IMPORT"
         port = project.property("mlFinalPort").toInteger()
         input_file_path = project.property('sccssOntologyLocation')
         input_file_type = "RDF"
         output_permissions = "data-hub-operator,read,data-hub-operator,update"
-   }
+    }
 }
 
 task loadOntologyStaging(type: DhfOntologyMlcpTask) {
