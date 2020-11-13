@@ -84,7 +84,7 @@ project.properties.each{ key, value ->
     if (key.startsWith("mlcpOntology")) {
         def seq = key.tokenize("-")
         def graph = seq[1]
-        task "mlcpOntologyDelete-${graph}"(type: com.marklogic.gradle.task.MarkLogicTask) {
+        task "sccssOntologyDelete-${graph}"(type: com.marklogic.gradle.task.MarkLogicTask) {
             group = "MLCP OntologyDelete"
             doFirst {
                 println "deleting triple graph http://sensingclues.nl/${graph}"
@@ -99,7 +99,7 @@ project.properties.each{ key, value ->
             }
         }
         if (value) {
-            task "mlcpOntologyLoad-${graph}"(type: DhfOntologyMlcpTask) {
+            task "sccssOntologyLoad-${graph}"(type: DhfOntologyMlcpTask) {
                 group = "MLCP OntologyLoad"
                 input_file_path = value
                 output_collections = "http://sensingclues.nl/${graph}"
@@ -122,5 +122,15 @@ task deleteOntologies(group: project.name) {
 task reloadOntologies(dependsOn: ['deployProjects', 'deleteOntologies'], group: project.name) {
     dependsOn {
         tasks.findAll { task -> "MLCP OntologyLoad".equals(task.group) }
+    }
+}
+
+gradle.taskGraph.whenReady { taskGraph ->
+    def tasks = taskGraph.getAllTasks()
+    tasks.findAll { task ->
+        if ( task.name.startsWith("ml") || task.name.startsWith("dhf") )  {
+            task.enabled=false
+            throw new GradleException("ML-Gradle and DHF tasks have been disabled, run them from sccss-mdh2!")
+        }
     }
 }
