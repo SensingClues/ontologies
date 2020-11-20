@@ -156,7 +156,9 @@ skos:hiddenLabel "Licence"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/408> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/406>;
 dcterms:created "2019-08-15T09:53:04.913Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Drivers license"@en,"Id"@en,"Passport"@en .
+skos:altLabel "Drivers license"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/408> skos:altLabel "Passport"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/409> a skos:Concept;
 skos:prefLabel "Bags"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/396> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/409> .
@@ -3068,7 +3070,7 @@ skos:altLabel "Animal produce"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/342> skos:altLabel "Rhino horn"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/408> skos:prefLabel "identity_card"@en;
 skos:altLabel "Identity card"@en;
-dcterms:modified "2019-10-16T09:19:23.603Z"^^xsd:dateTime .
+dcterms:modified "2020-11-20T16:00:59.495Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/393> skos:prefLabel "walkie_talkie"@en;
 skos:altLabel "Walkie talkie"@en;
 dcterms:modified "2019-10-16T09:19:34.743Z"^^xsd:dateTime .
@@ -4807,7 +4809,7 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Pangolin scales"@en;
 dcterms:created "2020-11-09T17:37:26.737Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/339> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/644> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/644> a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> a skos:Concept .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
