@@ -37,7 +37,7 @@ dependencies {
 }
 
 project.properties.each{ key, value ->
-    if (key.startsWith("sccssProject")) {
+    if (key.startsWith("sccssProject-")) {
         def seq = key.tokenize("-")
         def id = seq[1]
         seq = value.tokenize("|")
@@ -130,7 +130,10 @@ gradle.taskGraph.whenReady { taskGraph ->
     tasks.findAll { task ->
         if ( task.name.startsWith("ml") || task.name.startsWith("dhf") )  {
             task.enabled=false
-            throw new GradleException("ML-Gradle and DHF tasks have been disabled, run them from sccss-mdh2!")
+            throw new GradleException(
+                "\n#############################################################################"+
+                "\n### ML-Gradle and DHF tasks have been disabled, run them from sccss-mdh2! ###"+
+                "\n#############################################################################")
         }
     }
 }
