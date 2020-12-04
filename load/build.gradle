@@ -1,97 +1,90 @@
+buildscript {
+  repositories {
+    maven {url 'http://developer.marklogic.com/maven2/'}
+  }
+}
+
 plugins {
     id 'java'
     // Gradle Properties plugin
     id 'net.saliman.properties' version '1.5.1'
 
-    // Data Hub plugin
-    id 'com.marklogic.ml-data-hub' version '5.2.3'
+    id "com.marklogic.ml-gradle" version "4.1.0"
 
     id "io.github.http-builder-ng.http-plugin" version "0.1.1"
-    id "org.ajoberstar.grgit" version "4.0.2"
 }
 
 repositories {
     jcenter()
     maven { url 'https://dl.bintray.com/marklogic-community/Maven/' }
-	maven { url "http://developer.marklogic.com/maven2/" }
+    maven { url "http://developer.marklogic.com/maven2/" }
 }
 
-
-
 configurations {
-    mlcp
+    mlcp {
+        // stop Gradle from complaining about "SLF4J: Class path contains multiple SLF4J bindings."
+        exclude group: 'ch.qos.logback', module: 'logback-classic'
+        exclude group: 'org.apache.avro', module: 'avro-tools'
+    }
 }
 
 dependencies {
     mlcp "com.marklogic:mlcp:10.0.4"
-    mlcp files("mlcp")
+    mlcp files("mlcp/conf")
+    mlcp files("mlcp/lib")
 
-	compile 'org.ajoberstar.grgit:grgit-core:4.0.3'
-
-    // this allows you to write custom java code that depends
-    // on the Data Hub Framework library
-    compile 'com.marklogic:marklogic-data-hub:${mlDHFVersion}'
-    compile 'com.marklogic:marklogic-xcc:10.0.4'
     compile 'io.github.http-builder-ng:http-builder-ng-CLIENT:1.0.4'
 }
 
-ext {
-    // Open the Git repository in the current directory.
-	git = org.ajoberstar.grgit.Grgit.open(dir: "${project.projectDir}/")
-    // Get commit id of HEAD.
-    gitRevision = git.head().id
-    // Get abbreviated commit Id of HEAD
-    gitAbbRevision = git.head().abbreviatedId
-    gitDescription = git.describe(longDescr: true)
-    projectVersion = "SCCSS-ONTOLOGY-1.0.0"
-}
-
-// Getting git tags info
-task gitInfo() {
-    doFirst {
-        println "Create gitInfo file"
-		def date = new Date()
-        def separator = System.getProperty('line.separator')
-        boolean success = new File("src/main/ml-modules/root/gitInfo.json").delete()
-        def file = new File("src/main/ml-modules/root/gitInfo.json")
-        file.write("{${separator}" +
-            "  \"projectVersion\": \"${projectVersion}-${gitAbbRevision}\",${separator}" +
-            "  \"description\": \"${gitDescription}\",${separator}" +
-			"  \"date\": \"${date.format('yyyy-MM-dd')}T${date.format('HH:mm:ss')}\",${separator}" +
-            "  \"gitCommit\": \"${gitRevision}\",${separator}" +
-            "  \"gitAbbreviatedCommit\": \"${gitAbbRevision}\"${separator}" +
-            "}${separator}"
-        )
+project.properties.each{ key, value ->
+    if (key.startsWith("sccssProject-")) {
+        def seq = key.tokenize("-")
+        def id = seq[1]
+        seq = value.tokenize("|")
+        def name = seq[0]
+        def description = seq[1]
+        task "deployProject-${id}" (type: io.github.httpbuilderng.http.HttpTask) {
+            group = "Deploy Project"
+            config {
+                request.uri = 'http://' + mlHost + ":" + mlStagingPort.toInteger()
+                request.contentType = 'application/json'
+                request.auth.digest(mlUsername, mlPassword)
+                request.body = [name: name, description: description, id: id]
+            }
+            post {
+                request.uri.path = '/v1/resources/project'
+                response.success {  groovyx.net.http.FromServer fs, Object body ->
+                    println "Success: ${fs.statusCode}, Response is: ${body}"
+                }
+                response.failure { groovyx.net.http.FromServer fs, Object body ->
+                    println "Failure: ${fs.statusCode}, Response is: ${body}"
+                }
+            }
+        }
     }
 }
 
-// connect pwcGitInfo to mlDeploy and mlRedeploy
-mlDeployApp.dependsOn gitInfo
+task deployProjects(group: project.name) {
+    dependsOn {
+        tasks.findAll { task -> "Deploy Project".equals(task.group) }
+    }
+}
 
-// connect pwcGitInfo to mlLoadModules and mlReloadModules
-mlLoadModules.dependsOn gitInfo
 
-
-
-task loadConfiguration(type: com.marklogic.gradle.task.MlcpTask) {
-    group 'Configuration'
-    classpath = configurations.mlcp
-    command = "IMPORT"
-    username=mlFlowOperatorUserName
-    password=mlFlowOperatorPassword
-    port = mlStagingPort.toInteger()
-    input_file_path = "data/configuration"
-    input_file_pattern=".*\\.json"
-    output_uri_replace = ".*data,''"
-    output_permissions = "data-hub-operator,read,data-hub-operator,update"
-    output_collections = "configuration,configuration/project"
+class DhfOntologyMlcpTask extends com.marklogic.gradle.task.MlcpTask {
+    DhfOntologyMlcpTask() {
+        classpath = project.configurations.mlcp
+        command = "IMPORT"
+        port = project.property("mlFinalPort").toInteger()
+        input_file_type = "RDF"
+    }
 }
 
 project.properties.each{ key, value ->
-    if (key.startsWith("mlcpOntology") && value) {
+    if (key.startsWith("mlcpOntology")) {
         def seq = key.tokenize("-")
         def graph = seq[1]
-        task "mlcpOntologyDelete-${graph}"(type: com.marklogic.gradle.task.MarkLogicTask) {
+        task "sccssOntologyDelete-${graph}"(type: com.marklogic.gradle.task.MarkLogicTask) {
             group = "MLCP OntologyDelete"
             doFirst {
                 println "deleting triple graph http://sensingclues.nl/${graph}"
@@ -100,45 +93,47 @@ project.properties.each{ key, value ->
                 try {
                     getManageClient().delete("/v1/graphs?database=${mlFinalDbName}&graph=http://sensingclues.nl/${graph}")
                 } catch (e) {
-                    println "Ontology in graph ${graph} was not loaded..."
+                    println "Ontology in graph http://sensingclues.nl/${graph} was not loaded, moving on..."
+                    println ""
                 }
             }
         }
-        task "mlcpOntologyLoad-${graph}"(type: DhfOntologyMlcpTask) {
-            group = "MLCP OntologyLoad"
-            input_file_pattern = value
-            output_collections = "http://sensingclues.nl/${graph}"
+        if (value) {
+            task "sccssOntologyLoad-${graph}"(type: DhfOntologyMlcpTask) {
+                group = "MLCP OntologyLoad"
+                input_file_path = value
+                output_collections = "http://sensingclues.nl/${graph}"
+                if (graph == 'SCCSSOntology') {
+                    output_permissions = "focus-role,read,data-hub-operator,read,data-hub-operator,update"
+                } else {
+                    output_permissions = "focus-project-${graph}-member,read,data-hub-operator,read,data-hub-operator,update"
+                }
+            }
         }
     }
 }
 
-task deleteOntology() {
+task deleteOntologies(group: project.name) {
     dependsOn {
         tasks.findAll { task -> "MLCP OntologyDelete".equals(task.group) }
     }
 }
 
-task loadOntology(dependsOn: ['deleteOntology']) {
+task reloadOntologies(dependsOn: ['deployProjects', 'deleteOntologies'], group: project.name) {
     dependsOn {
         tasks.findAll { task -> "MLCP OntologyLoad".equals(task.group) }
     }
 }
 
-class DhfOntologyMlcpTask extends com.marklogic.gradle.task.MlcpTask {
-   DhfOntologyMlcpTask() {
-        classpath = project.configurations.mlcp
-        command = "IMPORT"
-        port = project.property("mlFinalPort").toInteger()
-        input_file_path = project.property('sccssOntologyLocation')
-        input_file_type = "RDF"
-        output_permissions = "data-hub-operator,read,data-hub-operator,update"
-   }
+gradle.taskGraph.whenReady { taskGraph ->
+    def tasks = taskGraph.getAllTasks()
+    tasks.findAll { task ->
+        if ( task.name.startsWith("ml") || task.name.startsWith("dhf") )  {
+            task.enabled=false
+            throw new GradleException(
+                "\n#############################################################################"+
+                "\n### ML-Gradle and DHF tasks have been disabled, run them from sccss-mdh2! ###"+
+                "\n#############################################################################")
+        }
+    }
 }
-
-task loadOntologyStaging(type: DhfOntologyMlcpTask) {
-    group 'Configuration Ontology'
-    port = mlStagingPort.toInteger()
-    input_file_pattern=".*\\.trig"
-    output_collections = "SCCSS-Ontology"
-}
-
