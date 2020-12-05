@@ -916,26 +916,26 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/110> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/106>;
 dcterms:created "2019-08-15T09:53:02.221Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/111> a skos:Concept;
-dcterms:modified "2019-10-16T09:22:14.601Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/111> a skos:Concept .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/106> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/111> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/106>;
 dcterms:created "2019-08-15T09:53:02.245Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/112> a skos:Concept .
-<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/112> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/112> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/111>;
-dcterms:created "2019-08-15T09:53:02.253Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/113> a skos:Concept .
-<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/113> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/113> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/111>;
-dcterms:created "2019-08-15T09:53:02.262Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> a skos:Concept .
-<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/114> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/111>;
-dcterms:created "2019-08-15T09:53:02.270Z"^^xsd:dateTime;
+<https://sensingclues.poolparty.biz/SCCSSOntology/487> skos:prefLabel "Food source"@en;
+dcterms:modified "2020-10-09T12:24:03.810Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/517> skos:prefLabel "Secure wastbin"@en;
+skos:altLabel "secure_wastebin"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/413> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/642> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Salt pan"@en;
+skos:altLabel "Salt_pan"@en;
+dcterms:modified "2020-10-09T12:23:31.919Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/351> skos:prefLabel "Water trough"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/100> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-11-09T16:34:28.653Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/339>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/123> a skos:Concept;
 skos:prefLabel "Trace"@en;
@@ -2297,7 +2297,7 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/355> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/439> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/307> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> skos:prefLabel "Pangolin scales"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/99> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/137> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/412> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
@@ -2325,7 +2325,7 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/433> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/158> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/301> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/112> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> skos:prefLabel "age_of_carcass"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/141> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/273> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/164> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
@@ -2400,7 +2400,7 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/285> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/438> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/130> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/113> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/351> skos:altLabel "water_trough"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/268> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/408> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/219> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
@@ -2651,8 +2651,8 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:modified "2019-08-15T13:49:29.495Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/67> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/88> skos:altLabel "Incidents"@en .
-<https://sensingclues.poolparty.biz/SCCSSOntology/69> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Arrest"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/69> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> a skos:Concept .
 <https://sensingclues.poolparty.biz/SCCSSOntology/306> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/458> a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
@@ -2770,9 +2770,9 @@ skos:prefLabel "Fence"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/111> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/107> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:modified "2019-10-16T09:22:59.630Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/112> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/113> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/644> dcterms:created "2020-11-09T17:37:26.737Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> a skos:Concept .
+<https://sensingclues.poolparty.biz/SCCSSOntology/351> dcterms:modified "2020-10-09T12:23:39.835Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/472> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/349> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:altLabel "water_spring"@en .
@@ -2978,7 +2978,7 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 a skos:Concept;
 skos:prefLabel "Cleaned"@en;
 a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Action> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/69> dcterms:modified "2019-10-12T09:24:25.866Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/69> dcterms:modified "2020-12-05T03:29:29.907Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/81> dcterms:modified "2019-10-12T09:24:38.268Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/70> dcterms:modified "2019-10-12T09:24:54.293Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/469> dcterms:modified "2019-10-12T09:25:00.491Z"^^xsd:dateTime .
@@ -3098,14 +3098,14 @@ dcterms:modified "2019-10-16T09:22:06.550Z"^^xsd:dateTime .
 skos:altLabel "Hindering people"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:prefLabel "killed_things"@en;
 skos:altLabel "Killed things"@en .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> skos:prefLabel "Killed_domesticated_animal"@en;
-skos:altLabel "Killed_animal"@en .
-<https://sensingclues.poolparty.biz/SCCSSOntology/112> skos:prefLabel "killed_person"@en;
-skos:altLabel "Killed person"@en;
-dcterms:modified "2019-10-16T09:22:40.384Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/113> skos:prefLabel "killed_wildlife"@en;
-skos:altLabel "Killed wildlife"@en;
-dcterms:modified "2019-10-16T09:22:44.678Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/339> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/644> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:altLabel "Killed person"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/413> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/643> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:created "2020-11-09T09:38:55.897Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:altLabel "Killed_animal"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/472> skos:prefLabel "Traffic signs"@en;
+skos:altLabel "traffic_signs"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/487> skos:altLabel "food_resource"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/480> skos:prefLabel "scared_people"@en;
 skos:altLabel "Scared people"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/107> skos:prefLabel "wastebin_plundering"@en;
@@ -3323,7 +3323,7 @@ dcterms:modified "2019-10-16T09:58:28.938Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/325> skos:prefLabel "sambar_deer"@en;
 skos:altLabel "sambhar_deer"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/110> dcterms:modified "2019-10-18T12:31:30.020Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/114> dcterms:modified "2019-10-18T12:31:56.960Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/111> dcterms:modified "2020-12-05T04:11:41.141Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/399> dcterms:modified "2019-10-18T12:32:50.952Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/73> skos:altLabel "Laid ambush"@en;
 dcterms:modified "2019-10-18T12:33:27.962Z"^^xsd:dateTime .
@@ -4780,36 +4780,8 @@ skos:prefLabel "Bongo"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/642> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2020-10-09T12:17:56.697Z"^^xsd:dateTime;
 a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation>;
-skos:altLabel "Saltpan"@en;
-dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:prefLabel "Salt pan"@en;
-skos:altLabel "Salt_pan"@en;
-dcterms:modified "2020-10-09T12:23:31.919Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/351> skos:prefLabel "Water trough"@en;
-skos:altLabel "water_trough"@en;
-dcterms:modified "2020-10-09T12:23:39.835Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/472> skos:prefLabel "Traffic signs"@en;
-skos:altLabel "traffic_signs"@en .
-<https://sensingclues.poolparty.biz/SCCSSOntology/487> skos:altLabel "food_resource"@en;
-skos:prefLabel "Food source"@en;
-dcterms:modified "2020-10-09T12:24:03.810Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/517> skos:prefLabel "Secure wastbin"@en;
-skos:altLabel "secure_wastebin"@en .
-<https://sensingclues.poolparty.biz/SCCSSOntology/643> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/413>;
-skos:prefLabel "age_of_carcass"@en;
-a skos:Concept .
-<https://sensingclues.poolparty.biz/SCCSSOntology/413> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/643> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:created "2020-11-09T09:38:55.897Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/100> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2020-11-09T16:34:28.653Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/644> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/339>;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:prefLabel "Pangolin scales"@en;
-dcterms:created "2020-11-09T17:37:26.737Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/339> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/644> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/644> a skos:Concept .
+skos:altLabel "Saltpan"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:altLabel "Killed_person"@en .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
