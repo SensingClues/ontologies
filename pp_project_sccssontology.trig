@@ -698,7 +698,7 @@ skos:prefLabel "Juvenile"@en .
 dcterms:created "2019-08-15T09:53:05.298Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/446> a skos:Concept;
-skos:prefLabel "Sex"@en .
+skos:prefLabel "sex"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/413> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/446> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/446> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/413>;
 dcterms:created "2019-08-15T09:53:05.316Z"^^xsd:dateTime;
@@ -4716,13 +4716,13 @@ a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation>;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:altLabel "Linx"@en;
 dcterms:modified "2020-06-29T16:10:02.199Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/636> skos:prefLabel "Animal_behavior"@en;
+<https://sensingclues.poolparty.biz/SCCSSOntology/636> skos:prefLabel "animal_behavior"@en;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/413> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/636> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/636> dcterms:created "2020-10-09T12:07:44.036Z"^^xsd:dateTime;
 skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/413>;
 a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation>;
-dcterms:modified "2020-10-09T12:08:13.106Z"^^xsd:dateTime;
+dcterms:modified "2020-12-05T04:19:39.602Z"^^xsd:dateTime;
 skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/94> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/94> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/636> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/636> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
@@ -4782,6 +4782,18 @@ dcterms:created "2020-10-09T12:17:56.697Z"^^xsd:dateTime;
 a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation>;
 skos:altLabel "Saltpan"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/111> skos:altLabel "Killed_person"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/446> dcterms:modified "2020-12-05T04:19:57.254Z"^^xsd:dateTime;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/645> a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/89>;
+dcterms:created "2020-12-05T04:22:10.321Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Cattle_grazing"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/89> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/645> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/645> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-05T04:22:18.228Z"^^xsd:dateTime;
+skos:altLabel "Hearding"@en .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
