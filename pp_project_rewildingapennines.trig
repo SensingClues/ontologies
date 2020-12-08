@@ -24,22 +24,14 @@ rdfs:label "RA-concept scheme"@en;
 dcterms:title "RA-concept scheme"@en;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:publisher <https://sensingclues.poolparty.biz/user/Sensing-Clues-Foundation> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/2> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/10> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> dcterms:created "2019-08-22T09:46:21.047Z"^^xsd:dateTime;
-skos:prefLabel "Communities"@en;
-skos:altLabel "Places"@en;
+a skos:Concept;
+dcterms:created "2019-08-22T09:46:21.047Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/43> .
-<https://sensingclues.poolparty.biz/RewildingApennines/44> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/2> a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/1> .
-<https://sensingclues.poolparty.biz/RewildingApennines/2> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+<https://sensingclues.poolparty.biz/RewildingApennines/2> a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:48:00.829Z"^^xsd:dateTime;
-skos:prefLabel "Projects"@en;
-skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+skos:prefLabel "Projects"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/3> dcterms:created "2019-08-22T09:48:39.121Z"^^xsd:dateTime;
 skos:prefLabel "Bear Smart Community"@en;
 a skos:Concept .
@@ -53,7 +45,6 @@ skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/2>;
 dcterms:created "2019-08-22T09:48:45.848Z"^^xsd:dateTime;
 a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/5> dcterms:created "2019-08-22T09:48:50.623Z"^^xsd:dateTime;
-skos:prefLabel "Bears & Corridors"@en;
 a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/2> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/5> .
 <https://sensingclues.poolparty.biz/RewildingApennines/5> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
@@ -70,192 +61,164 @@ a skos:Concept .
 dcterms:created "2019-08-22T09:49:07.015Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/6> dcterms:modified "2019-08-22T09:49:13.076Z"^^xsd:dateTime;
-skos:altLabel "LR15"@en;
+<https://sensingclues.poolparty.biz/RewildingApennines/6> skos:altLabel "LR15"@en;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/5> skos:altLabel "Bears&Corridors"@en;
-dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2019-08-22T10:17:17.468Z"^^xsd:dateTime;
+<https://sensingclues.poolparty.biz/RewildingApennines/5> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:altLabel "Bears and Corridors"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/3> dcterms:modified "2019-08-22T09:49:55.291Z"^^xsd:dateTime;
 skos:altLabel "Smart Community"@en;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/2> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:altLabel "Places"@en;
+skos:prefLabel "Communities"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/8> skos:prefLabel "Anversa degli Abruzzi"@en;
 dcterms:created "2019-08-22T09:50:55.915Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/8> .
 <https://sensingclues.poolparty.biz/RewildingApennines/8> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1> .
-<https://sensingclues.poolparty.biz/RewildingApennines/44> a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/9> .
 <https://sensingclues.poolparty.biz/RewildingApennines/9> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 dcterms:created "2019-08-22T09:51:01.496Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Bisegna"@en .
-<https://sensingclues.poolparty.biz/RewildingApennines/44> dcterms:created "2019-08-22T09:55:53.444Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/0> dcterms:modified "2019-08-22T09:57:17.952Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/10> .
 <https://sensingclues.poolparty.biz/RewildingApennines/10> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Campoli Appennino"@en;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:created "2019-08-22T09:51:05.913Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/RewildingApennines/44> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32> .
 <https://sensingclues.poolparty.biz/RewildingApennines/11> skos:prefLabel "Castel Di Sangro"@en;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:created "2019-08-22T09:51:10.025Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/11> .
 <https://sensingclues.poolparty.biz/RewildingApennines/11> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/44> skos:prefLabel "Tunnel Trap"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/12> skos:prefLabel "Civitella Alfedena"@en;
 dcterms:created "2019-08-22T09:51:16.012Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/12> .
 <https://sensingclues.poolparty.biz/RewildingApennines/12> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1> .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/44> .
 <https://sensingclues.poolparty.biz/RewildingApennines/13> dcterms:created "2019-08-22T09:51:21.657Z"^^xsd:dateTime;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 skos:prefLabel "Civitella Roveto"@en;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/13> .
-<https://sensingclues.poolparty.biz/RewildingApennines/45> skos:prefLabel "Waterhouse"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/14> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:51:25.374Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/14> .
 <https://sensingclues.poolparty.biz/RewildingApennines/14> skos:prefLabel "Cocullo"@en;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/45> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/15> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 skos:prefLabel "Colle Di Macine (Palena)"@en;
 dcterms:created "2019-08-22T09:51:34.260Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/15> .
 <https://sensingclues.poolparty.biz/RewildingApennines/15> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/45> a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/16> skos:prefLabel "Goriano Sicoli"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/16> .
 <https://sensingclues.poolparty.biz/RewildingApennines/16> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:51:39.088Z"^^xsd:dateTime;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/45> .
 <https://sensingclues.poolparty.biz/RewildingApennines/17> dcterms:created "2019-08-22T09:51:43.749Z"^^xsd:dateTime;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 skos:prefLabel "Introdacqua"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/17> .
 <https://sensingclues.poolparty.biz/RewildingApennines/17> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/45> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/18> .
 <https://sensingclues.poolparty.biz/RewildingApennines/18> dcterms:created "2019-08-22T09:51:47.654Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Luco dei Marsi"@en;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1> .
-<https://sensingclues.poolparty.biz/RewildingApennines/45> dcterms:created "2019-08-22T09:55:58.232Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/19> skos:prefLabel "Opi"@en;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 dcterms:created "2019-08-22T09:51:53.400Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/19> .
 <https://sensingclues.poolparty.biz/RewildingApennines/19> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:topConceptOf <https://sensingclues.poolparty.biz/RewildingApennines/0> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/20> .
 <https://sensingclues.poolparty.biz/RewildingApennines/20> skos:prefLabel "Ortona dei Marsi"@en;
 dcterms:created "2019-08-22T09:51:57.595Z"^^xsd:dateTime;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/21> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:52:01.838Z"^^xsd:dateTime;
 skos:prefLabel "Ortucchi"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/21> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/22> dcterms:created "2019-08-22T09:52:09.064Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/22> .
 <https://sensingclues.poolparty.biz/RewildingApennines/22> skos:prefLabel "Pettorano"@en;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:prefLabel "Places"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/23> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Pettorano sul Gizio"@en;
 dcterms:created "2019-08-22T09:52:13.412Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/23> .
-<https://sensingclues.poolparty.biz/RewildingApennines/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/RewildingApennines/46> .
 <https://sensingclues.poolparty.biz/RewildingApennines/24> skos:prefLabel "Rocca Pia"@en;
 dcterms:created "2019-08-22T09:52:18.854Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/24> .
 <https://sensingclues.poolparty.biz/RewildingApennines/24> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> dcterms:created "2019-08-22T09:56:37.227Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/25> a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:52:24.890Z"^^xsd:dateTime;
 skos:prefLabel "Roccaraso"@en .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/25> .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/26> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/25>,<https://sensingclues.poolparty.biz/RewildingApennines/26> .
 <https://sensingclues.poolparty.biz/RewildingApennines/26> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 a skos:Concept;
 dcterms:created "2019-08-22T09:52:26.903Z"^^xsd:dateTime;
 skos:prefLabel "San Pietro Avellana"@en .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> dcterms:modified "2019-08-22T09:57:28.445Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/27> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:created "2019-08-22T09:52:31.717Z"^^xsd:dateTime;
 skos:prefLabel "Scanno"@en .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/27> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/32> .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/28> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/27>,<https://sensingclues.poolparty.biz/RewildingApennines/28> .
 <https://sensingclues.poolparty.biz/RewildingApennines/28> dcterms:created "2019-08-22T09:52:35.976Z"^^xsd:dateTime;
 skos:prefLabel "Sulmona"@en;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> dcterms:modified "2019-08-22T09:57:28.445Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/29> skos:prefLabel "Trasacco"@en;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/29> .
 <https://sensingclues.poolparty.biz/RewildingApennines/29> dcterms:created "2019-08-22T09:52:40.899Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/RewildingApennines/0> dcterms:modified "2019-08-22T09:57:17.952Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/30> skos:prefLabel "Trevi nel Lazio"@en;
 dcterms:created "2019-08-22T09:52:44.346Z"^^xsd:dateTime;
 a skos:Concept .
 <https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/30> .
 <https://sensingclues.poolparty.biz/RewildingApennines/30> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/RewildingApennines/46> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/31> skos:prefLabel "Villalago"@en;
 dcterms:created "2019-08-22T09:52:51.046Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 a skos:Concept;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1> .
-<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/31>;
-skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/31> .
 <https://sensingclues.poolparty.biz/RewildingApennines/15> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:modified "2019-08-22T09:53:02.542Z"^^xsd:dateTime;
 skos:altLabel "Colle Di Macine"@en .
 <https://sensingclues.poolparty.biz/RewildingApennines/32> skos:prefLabel "Camera-traps"@en;
-a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/2> dcterms:modified "2019-08-23T07:50:48.596Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/RewildingApennines/32> dcterms:modified "2019-08-22T09:57:01.850Z"^^xsd:dateTime;
+a skos:Concept;
 dcterms:created "2019-08-22T09:54:32.042Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/33> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
@@ -306,8 +269,7 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/RewildingApennines/40> dcterms:created "2019-08-22T09:55:33.725Z"^^xsd:dateTime;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
 a skos:Concept .
-<https://sensingclues.poolparty.biz/RewildingApennines/41> skos:prefLabel "Prati di Castro gully"@en;
-a skos:Concept;
+<https://sensingclues.poolparty.biz/RewildingApennines/41> a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
 dcterms:created "2019-08-22T09:55:37.518Z"^^xsd:dateTime .
@@ -323,6 +285,36 @@ a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
 skos:prefLabel "Rufigno"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/43> .
+<https://sensingclues.poolparty.biz/RewildingApennines/44> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2019-08-22T09:55:53.444Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+skos:prefLabel "Tunnel Trap"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/44> .
+<https://sensingclues.poolparty.biz/RewildingApennines/45> skos:prefLabel "Waterhouse"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/45> .
+<https://sensingclues.poolparty.biz/RewildingApennines/45> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+dcterms:created "2019-08-22T09:55:58.232Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:topConceptOf <https://sensingclues.poolparty.biz/RewildingApennines/0>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:prefLabel "Places"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> dcterms:created "2019-08-22T09:56:37.227Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/32> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/1> .
+<https://sensingclues.poolparty.biz/RewildingApennines/2> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/46> .
+<https://sensingclues.poolparty.biz/RewildingApennines/46> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/2> .
+<https://sensingclues.poolparty.biz/RewildingApennines/10> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/2> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> dcterms:modified "2019-08-22T09:57:01.850Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/46> <http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place>;
 dcterms:modified "2019-08-22T09:57:49.371Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/38> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
@@ -371,16 +363,230 @@ dcterms:modified "2019-08-22T09:57:49.371Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/45> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/RewildingApennines/2> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/RewildingApennines/36> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2019-08-22T09:58:24.020Z"^^xsd:dateTime;
-skos:hiddenLabel "La Pa Dula"@en .
+skos:hiddenLabel "La Pa Dula"@en;
+dcterms:modified "2019-08-22T09:58:24.020Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/37> skos:altLabel "Bear Den"@en;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:modified "2019-08-22T09:58:36.450Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/RewildingApennines/41> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2019-08-22T09:58:50.258Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/RewildingApennines/7> dcterms:modified "2019-08-22T10:18:04.992Z"^^xsd:dateTime;
-skos:prefLabel "Un Passaggio per l'Orso"@en .
-<https://sensingclues.poolparty.biz/RewildingApennines/2> skos:altLabel "Progetto"@en .
+dcterms:modified "2019-08-22T09:58:50.258Z"^^xsd:dateTime;
+skos:prefLabel "Prati di Castro gully"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/5> skos:prefLabel "Bears & Corridors"@en;
+skos:altLabel "Bears&Corridors"@en;
+dcterms:modified "2019-08-22T10:17:17.468Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/7> skos:prefLabel "Un Passaggio per l'Orso"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/2> skos:altLabel "Progetto"@en;
+dcterms:modified "2019-08-23T07:50:48.596Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/47> dcterms:created "2019-11-22T09:17:18.607Z"^^xsd:dateTime;
+skos:prefLabel "Capistrello"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/47> .
+<https://sensingclues.poolparty.biz/RewildingApennines/47> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/48> a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Pescosolido"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/48> .
+<https://sensingclues.poolparty.biz/RewildingApennines/48> dcterms:created "2019-11-22T09:18:02.192Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/49> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+skos:prefLabel "Rivisondoli"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/49> .
+<https://sensingclues.poolparty.biz/RewildingApennines/49> dcterms:created "2019-11-22T09:19:13.593Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/50> a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+skos:prefLabel "S.Vincenzo V.R."@en;
+dcterms:created "2019-11-22T09:20:16.533Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/50> .
+<https://sensingclues.poolparty.biz/RewildingApennines/50> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/51> .
+<https://sensingclues.poolparty.biz/RewildingApennines/51> skos:prefLabel "Colledimacine"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2019-11-22T09:20:45.649Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/52> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+skos:prefLabel "Ortucchio"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/52> .
+<https://sensingclues.poolparty.biz/RewildingApennines/52> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2019-11-22T09:27:36.442Z"^^xsd:dateTime;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/53> dcterms:created "2019-11-22T09:33:28.184Z"^^xsd:dateTime;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/1>;
+skos:prefLabel "Rosello"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/1> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/53> .
+<https://sensingclues.poolparty.biz/RewildingApennines/53> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/6> skos:altLabel " Regional Law 15"@en;
+dcterms:modified "2019-11-22T09:34:59.805Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/7> skos:altLabel " A passage for the Bear"@en," A passage for theBear"@en;
+dcterms:modified "2019-11-22T09:36:12.830Z"^^xsd:dateTime;
+skos:altLabel "Passage for the Bear"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/54> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/54> .
+<https://sensingclues.poolparty.biz/RewildingApennines/54> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:prefLabel "Underpass Roccapia"@en;
+dcterms:created "2019-11-29T09:22:31.917Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/55> skos:prefLabel "Path to Bugnara"@en;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+dcterms:created "2019-11-29T09:24:16.913Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/55> .
+<https://sensingclues.poolparty.biz/RewildingApennines/55> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/56> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+skos:prefLabel "Underpass Pettorano"@en;
+dcterms:created "2019-11-29T09:25:08.100Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/56> .
+<https://sensingclues.poolparty.biz/RewildingApennines/56> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/57> a skos:Concept;
+skos:prefLabel "Patrol Cupo"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+dcterms:created "2019-11-29T09:25:31.970Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/57> .
+<https://sensingclues.poolparty.biz/RewildingApennines/57> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/58> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/58> .
+<https://sensingclues.poolparty.biz/RewildingApennines/58> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Santa Margherita"@en;
+dcterms:created "2019-11-29T09:26:15.742Z"^^xsd:dateTime;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/59> dcterms:created "2019-11-29T09:26:45.634Z"^^xsd:dateTime;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32> .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/59> .
+<https://sensingclues.poolparty.biz/RewildingApennines/59> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Gallery SS17"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/60> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/32>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/RewildingApennines/32> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/60> .
+<https://sensingclues.poolparty.biz/RewildingApennines/60> skos:prefLabel "Frattura"@en;
+dcterms:created "2019-11-29T09:27:06.588Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/2> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/61> .
+<https://sensingclues.poolparty.biz/RewildingApennines/61> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/2>;
+dcterms:created "2019-12-12T10:56:18.713Z"^^xsd:dateTime;
+skos:prefLabel "BSC Valle Roveto-Ernici"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/RewildingApennines/4> dcterms:modified "2019-12-12T10:57:00.808Z"^^xsd:dateTime;
+skos:altLabel "The Bear's Honey"@en;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> a skos:Concept;
+skos:topConceptOf <https://sensingclues.poolparty.biz/RewildingApennines/0>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:18:16.445Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/RewildingApennines/62> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:prefLabel "Persons"@en;
+dcterms:modified "2020-12-08T14:22:16.950Z"^^xsd:dateTime;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+<http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/66> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:created "2020-12-08T14:22:22.999Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:prefLabel "jellito"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/66> .
+<https://sensingclues.poolparty.biz/RewildingApennines/66> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/67> a skos:Concept;
+skos:prefLabel "orsomarsicano"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/67> .
+<https://sensingclues.poolparty.biz/RewildingApennines/67> dcterms:created "2020-12-08T14:22:52.542Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/68> skos:prefLabel "max71"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:created "2020-12-08T14:23:03.101Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/68> .
+<https://sensingclues.poolparty.biz/RewildingApennines/68> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/69> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/69> .
+<https://sensingclues.poolparty.biz/RewildingApennines/69> dcterms:created "2020-12-08T14:23:19.523Z"^^xsd:dateTime;
+skos:prefLabel "pietrantonio"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/70> .
+<https://sensingclues.poolparty.biz/RewildingApennines/70> skos:prefLabel "SimoneC"@en;
+dcterms:created "2020-12-08T14:23:35.159Z"^^xsd:dateTime;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/71> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "fabriziocordischi"@en .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/71> .
+<https://sensingclues.poolparty.biz/RewildingApennines/71> dcterms:created "2020-12-08T14:23:54.361Z"^^xsd:dateTime;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-08T14:24:11.923Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/72> .
+<https://sensingclues.poolparty.biz/RewildingApennines/72> a skos:Concept;
+dcterms:created "2020-12-08T14:24:43.916Z"^^xsd:dateTime;
+skos:prefLabel "jull"@en;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/73> a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/73> .
+<https://sensingclues.poolparty.biz/RewildingApennines/73> dcterms:created "2020-12-08T14:26:04.373Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+skos:prefLabel "angela"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/74> skos:prefLabel "sirobaliva"@en;
+dcterms:created "2020-12-08T14:26:39.929Z"^^xsd:dateTime;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/74> .
+<https://sensingclues.poolparty.biz/RewildingApennines/74> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/75> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/75> .
+<https://sensingclues.poolparty.biz/RewildingApennines/75> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+dcterms:created "2020-12-08T14:26:50.209Z"^^xsd:dateTime;
+skos:prefLabel "alerivo"@en;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/76> skos:prefLabel "fausto"@en;
+dcterms:created "2020-12-08T14:26:59.589Z"^^xsd:dateTime;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/76> .
+<https://sensingclues.poolparty.biz/RewildingApennines/76> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/77> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "gaiettagio90"@en;
+dcterms:created "2020-12-08T14:27:09.523Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/77> .
+<https://sensingclues.poolparty.biz/RewildingApennines/77> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/RewildingApennines/78> skos:prefLabel "paolalupo"@en;
+a skos:Concept;
+dcterms:created "2020-12-08T14:27:21.643Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/RewildingApennines/62> skos:narrower <https://sensingclues.poolparty.biz/RewildingApennines/78> .
+<https://sensingclues.poolparty.biz/RewildingApennines/78> skos:broader <https://sensingclues.poolparty.biz/RewildingApennines/62>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
@@ -1175,5 +1381,5 @@ a owl:FunctionalProperty;
 rdfs:comment "important source of food for endangered or key stone species. ";
 rdfs:label "ImportantFoodSource" .
 <https://sensingclues.poolparty.biz/SCCSS-Ontology> rdfs:comment "Custom ontology for the Sensing Clues Cloud Services Suite"@mis;
-rdfs:label "SCCSS Ontology"@mis .
+rdfs:label "SCCSS-Ontology" .
 }
