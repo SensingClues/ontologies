@@ -982,6 +982,223 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/103> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/88> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/65> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:created "2020-12-06T21:02:07.267Z"^^xsd:dateTime;
+skos:topConceptOf <https://sensingclues.poolparty.biz/WildlifeWorks01/0>;
+skos:prefLabel "Persons"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/WildlifeWorks01/140> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+skos:prefLabel "Guardians"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> dcterms:created "2020-12-06T21:02:21.929Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-06T21:02:37.516Z"^^xsd:dateTime;
+skos:prefLabel "HWC_victims"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/142> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/143> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> skos:prefLabel "Offenders"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-06T21:02:42.400Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+<http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:modified "2020-12-06T21:03:18.802Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:altLabel "Rangers"@en;
+dcterms:modified "2020-12-06T21:04:03.384Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/144> dcterms:created "2020-12-06T21:04:32.630Z"^^xsd:dateTime;
+skos:prefLabel "Volunteers"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/144> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/144> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/145> dcterms:created "2020-12-08T14:30:56.108Z"^^xsd:dateTime;
+a skos:Concept;
+skos:prefLabel "benmtt"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/145> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/145> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/146> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/146> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/146> dcterms:created "2020-12-08T14:31:06.570Z"^^xsd:dateTime;
+skos:prefLabel "cjumaa"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/147> dcterms:created "2020-12-08T14:31:15.993Z"^^xsd:dateTime;
+skos:prefLabel "danielkatuu"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/147> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/147> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/148> a skos:Concept;
+dcterms:created "2020-12-08T14:31:32.951Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/148> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/148> skos:prefLabel "5Y-BRD"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+skos:altLabel "5YBRD"@en;
+dcterms:modified "2020-12-08T14:31:47.325Z"^^xsd:dateTime;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/149> skos:prefLabel "eddiep"@en;
+dcterms:created "2020-12-08T14:32:04.013Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/149> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/149> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/150> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/150> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/150> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "e.sagwe"@en;
+dcterms:created "2020-12-08T14:32:21.015Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/151> skos:prefLabel "eugmba"@en;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:32:31.292Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/151> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/151> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/152> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:32:37.742Z"^^xsd:dateTime;
+skos:prefLabel "grace"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/152> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/152> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/153> dcterms:created "2020-12-08T14:32:56.273Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/153> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/153> skos:prefLabel "hshake"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-08T14:33:03.100Z"^^xsd:dateTime;
+skos:altLabel "shake"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/154> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:33:19.884Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/154> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/154> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+skos:prefLabel "john"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/155> skos:prefLabel "jamie"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:33:27.858Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/155> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/155> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/156> a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:33:39.798Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/156> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/156> skos:prefLabel "jesicahmike"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/157> skos:prefLabel "jumaachiboya"@en;
+dcterms:created "2020-12-08T14:33:48.489Z"^^xsd:dateTime;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/157> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/157> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/158> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:33:57.603Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/158> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/158> a skos:Concept;
+skos:prefLabel "5Y-CBW"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+skos:altLabel "5YCBW"@en;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-08T14:34:07.983Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/159> skos:prefLabel "mabakule"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/159> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/159> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:34:22.464Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/160> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/160> skos:prefLabel "mike"@en;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:34:32.578Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/161> dcterms:created "2020-12-08T14:34:57.115Z"^^xsd:dateTime;
+skos:prefLabel "mlorewa"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/161> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/161> a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/162> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/162> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/162> skos:prefLabel "daniel"@en;
+dcterms:created "2020-12-08T14:35:09.967Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/163> skos:prefLabel "mswahili"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:21.023Z"^^xsd:dateTime;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/163> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/163> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/164> dcterms:created "2020-12-08T14:35:35.552Z"^^xsd:dateTime;
+a skos:Concept;
+skos:prefLabel "norman"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/164> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/164> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/165> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:42.014Z"^^xsd:dateTime;
+skos:prefLabel "connykesh"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/165> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/165> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/166> skos:prefLabel "ibrahim"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/166> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/166> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:51.806Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/167> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "co1"@en;
+dcterms:created "2020-12-08T14:36:05.090Z"^^xsd:dateTime;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/167> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/167> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/168> skos:prefLabel "smwandawiro"@en;
+dcterms:created "2020-12-08T14:36:15.154Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/168> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/168> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
