@@ -16,7 +16,101 @@
 @prefix cyc: <http://sw.cyc.com/concept/> .
 @prefix ctag: <http://commontag.org/ns#> .
 
-<https://sensingclues.poolparty.biz/WildlifeWorks01/thesaurus> {<https://sensingclues.poolparty.biz/WildlifeWorks01/0> a skos:ConceptScheme;
+<https://sensingclues.poolparty.biz/WildlifeWorks01/thesaurus> {<https://sensingclues.poolparty.biz/WildlifeWorks01/124> dcterms:created "2019-07-02T16:22:48.354Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:altLabel "Rally road"@en,"Rukinga safari rally road"@en,"Safari road"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/125> a skos:Concept;
+skos:prefLabel "Cattle dip"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/125> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/125> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
+dcterms:created "2019-07-02T16:22:48.363Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/126> a skos:Concept;
+skos:prefLabel "Macknon road"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/126> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/126> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
+dcterms:created "2019-07-02T16:22:48.371Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/127> a skos:Concept;
+skos:prefLabel "TDC airstrip"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/127> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/127> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
+dcterms:created "2019-07-02T16:22:48.378Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/128> a skos:Concept;
+skos:prefLabel "Gae rock"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/128> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/128> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
+dcterms:created "2019-07-02T16:22:48.386Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/129> a skos:Concept;
+skos:prefLabel "Kudu point"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/129> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/129> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
+dcterms:created "2019-07-02T16:22:48.395Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:altLabel "Kudu area"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/42> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/126> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/27> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/56> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/33> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/112> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/79> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/10> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/8> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/71> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/18> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/62> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/106> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/24> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/123> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/83> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/45> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/3> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/30> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/13> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/51> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/76> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/97> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/59> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/117> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/38> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/19> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/44> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/92> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/67> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/25> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/86> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/105> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/120> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/128> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/114> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/31> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/50> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/6> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/16> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/58> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/39> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/73> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/125> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/100> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/95> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/22> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/89> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/108> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/64> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/47> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/1> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/111> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/78> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/11> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/53> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/9> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/70> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/36> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/119> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/0> a skos:ConceptScheme;
 dcterms:title "Rukinga area concept scheme"@en;
 rdfs:label "Rukinga area concept scheme"@en;
 dcterms:created "2019-07-02T16:22:47.228Z"^^xsd:dateTime;
@@ -467,8 +561,9 @@ dcterms:created "2019-07-02T16:22:47.817Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/63> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/31> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/31> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/63>;
-dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2019-07-02T16:22:47.817Z"^^xsd:dateTime .
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/31> dcterms:modified "2019-07-02T16:22:47.817Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/71> a skos:Concept;
 skos:prefLabel "Maungu"@en .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/54> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/71> .
@@ -814,100 +909,7 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/124> a skos:Concept;
 skos:prefLabel "Safari rally road"@en .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/124> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/124> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.354Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Rally road"@en,"Rukinga safari rally road"@en,"Safari road"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/125> a skos:Concept;
-skos:prefLabel "Cattle dip"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/125> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/125> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.363Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/126> a skos:Concept;
-skos:prefLabel "Macknon road"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/126> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/126> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.371Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/127> a skos:Concept;
-skos:prefLabel "TDC airstrip"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/127> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/127> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.378Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/128> a skos:Concept;
-skos:prefLabel "Gae rock"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/128> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/128> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.386Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/129> a skos:Concept;
-skos:prefLabel "Kudu point"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/129> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/129> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119>;
-dcterms:created "2019-07-02T16:22:48.395Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Kudu area"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> a skos:Concept;
-skos:prefLabel "Ranger team"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/WildlifeWorks01/130> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:topConceptOf <https://sensingclues.poolparty.biz/WildlifeWorks01/0>;
-dcterms:created "2019-07-02T16:22:48.403Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Base camp"@en,"Base station"@en,"Ranger camp"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/131> a skos:Concept;
-skos:prefLabel "ST3-0"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/131> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/131> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.410Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/132> a skos:Concept;
-skos:prefLabel "ST5-7"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/132> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/132> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.418Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Greenhouse"@en;
-skos:hiddenLabel "Eric"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/133> a skos:Concept;
-skos:prefLabel "ST6-0"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/133> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/133> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.426Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/134> a skos:Concept;
-skos:prefLabel "Pilot"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/134> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/134> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.434Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:hiddenLabel "Keith"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/135> a skos:Concept;
-skos:prefLabel "ST8-0"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/135> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/135> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.442Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/136> a skos:Concept;
-skos:prefLabel "ST2-0"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/136> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/136> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.450Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/137> a skos:Concept;
-skos:prefLabel "ST5-3"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/137> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/137> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.459Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/138> a skos:Concept;
-skos:prefLabel "ST5-5"@en .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/138> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/138> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/130>;
-dcterms:created "2019-07-02T16:22:48.467Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/124> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/119> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/1> <http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place>;
 dcterms:modified "2019-07-02T16:23:48.710Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
@@ -980,87 +982,223 @@ dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/103> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/88> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
 <https://sensingclues.poolparty.biz/WildlifeWorks01/65> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/42> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/126> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/27> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/56> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/33> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/112> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/79> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/10> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/8> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/71> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/18> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/62> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/106> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/24> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/123> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/83> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/45> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/3> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/30> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/13> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/51> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/76> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/97> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/59> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/117> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/38> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/19> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/44> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/92> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/67> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/25> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/86> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/105> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/120> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/128> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/114> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/31> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/50> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/6> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/16> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/58> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/39> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/73> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/125> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/100> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/95> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/22> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/89> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/108> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/64> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/47> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/1> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/111> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/78> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/11> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/53> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/9> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/70> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/36> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/119> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Place> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> <http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
-dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2019-07-02T16:24:10.542Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/133> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/134> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/132> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/130> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/131> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/136> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/135> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/137> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/138> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/WildlifeWorks01/139> .
-<https://sensingclues.poolparty.biz/WildlifeWorks01/139> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:created "2020-12-06T21:02:07.267Z"^^xsd:dateTime;
 skos:topConceptOf <https://sensingclues.poolparty.biz/WildlifeWorks01/0>;
+skos:prefLabel "Persons"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/WildlifeWorks01/140> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+skos:prefLabel "Guardians"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> dcterms:created "2020-12-06T21:02:21.929Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-06T21:02:37.516Z"^^xsd:dateTime;
+skos:prefLabel "HWC_victims"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/142> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/143> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> skos:prefLabel "Offenders"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-06T21:02:42.400Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+<http://schema.semantic-web.at/ppt/propagateType> <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:modified "2020-12-06T21:03:18.802Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/142> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/143> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:altLabel "Rangers"@en;
+dcterms:modified "2020-12-06T21:04:03.384Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/144> dcterms:created "2020-12-06T21:04:32.630Z"^^xsd:dateTime;
+skos:prefLabel "Volunteers"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/140>;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/140> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/144> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/144> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/145> dcterms:created "2020-12-08T14:30:56.108Z"^^xsd:dateTime;
 a skos:Concept;
-skos:prefLabel "Arrestee"@en;
-dcterms:created "2019-10-13T14:24:32.615Z"^^xsd:dateTime;
-dcterms:modified "2019-10-13T14:24:41.914Z"^^xsd:dateTime;
-skos:altLabel "Arrestees"@en;
+skos:prefLabel "benmtt"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/145> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/145> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/146> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/146> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/146> dcterms:created "2020-12-08T14:31:06.570Z"^^xsd:dateTime;
+skos:prefLabel "cjumaa"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/147> dcterms:created "2020-12-08T14:31:15.993Z"^^xsd:dateTime;
+skos:prefLabel "danielkatuu"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/147> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/147> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/148> a skos:Concept;
+dcterms:created "2020-12-08T14:31:32.951Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/148> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/148> skos:prefLabel "5Y-BRD"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+skos:altLabel "5YBRD"@en;
+dcterms:modified "2020-12-08T14:31:47.325Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/149> skos:prefLabel "eddiep"@en;
+dcterms:created "2020-12-08T14:32:04.013Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/149> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/149> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/150> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/150> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/150> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "e.sagwe"@en;
+dcterms:created "2020-12-08T14:32:21.015Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/151> skos:prefLabel "eugmba"@en;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:32:31.292Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/151> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/151> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/152> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:32:37.742Z"^^xsd:dateTime;
+skos:prefLabel "grace"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/152> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/152> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/153> dcterms:created "2020-12-08T14:32:56.273Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/153> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/153> skos:prefLabel "hshake"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-08T14:33:03.100Z"^^xsd:dateTime;
+skos:altLabel "shake"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/154> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:33:19.884Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/154> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/154> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+skos:prefLabel "john"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/155> skos:prefLabel "jamie"@en;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a skos:Concept;
+dcterms:created "2020-12-08T14:33:27.858Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/155> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/155> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/156> a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:33:39.798Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/156> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/156> skos:prefLabel "jesicahmike"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/157> skos:prefLabel "jumaachiboya"@en;
+dcterms:created "2020-12-08T14:33:48.489Z"^^xsd:dateTime;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/157> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/157> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/158> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:33:57.603Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/158> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/158> a skos:Concept;
+skos:prefLabel "5Y-CBW"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person>;
+skos:altLabel "5YCBW"@en;
+dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2020-12-08T14:34:07.983Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/159> skos:prefLabel "mabakule"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/159> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/159> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:34:22.464Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/160> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/160> skos:prefLabel "mike"@en;
+a skos:Concept;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:created "2020-12-08T14:34:32.578Z"^^xsd:dateTime;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/161> dcterms:created "2020-12-08T14:34:57.115Z"^^xsd:dateTime;
+skos:prefLabel "mlorewa"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/161> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/161> a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/162> a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/162> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/162> skos:prefLabel "daniel"@en;
+dcterms:created "2020-12-08T14:35:09.967Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/163> skos:prefLabel "mswahili"@en;
+skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:21.023Z"^^xsd:dateTime;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/163> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/163> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/164> dcterms:created "2020-12-08T14:35:35.552Z"^^xsd:dateTime;
+a skos:Concept;
+skos:prefLabel "norman"@en .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/164> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/164> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/165> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:42.014Z"^^xsd:dateTime;
+skos:prefLabel "connykesh"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/165> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/165> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/166> skos:prefLabel "ibrahim"@en;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/166> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/166> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-08T14:35:51.806Z"^^xsd:dateTime;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/167> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "co1"@en;
+dcterms:created "2020-12-08T14:36:05.090Z"^^xsd:dateTime;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/167> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/167> a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/168> skos:prefLabel "smwandawiro"@en;
+dcterms:created "2020-12-08T14:36:15.154Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/141> skos:narrower <https://sensingclues.poolparty.biz/WildlifeWorks01/168> .
+<https://sensingclues.poolparty.biz/WildlifeWorks01/168> skos:broader <https://sensingclues.poolparty.biz/WildlifeWorks01/141>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Person> .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
@@ -1855,5 +1993,5 @@ a owl:FunctionalProperty;
 rdfs:comment "important source of food for endangered or key stone species. ";
 rdfs:label "ImportantFoodSource" .
 <https://sensingclues.poolparty.biz/SCCSS-Ontology> rdfs:comment "Custom ontology for the Sensing Clues Cloud Services Suite"@mis;
-rdfs:label "SCCSS Ontology"@mis .
+rdfs:label "SCCSS-Ontology" .
 }
