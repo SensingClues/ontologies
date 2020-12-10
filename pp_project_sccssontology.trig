@@ -821,7 +821,8 @@ skos:prefLabel "Poaching"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/93> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/89>;
 dcterms:created "2019-08-15T09:53:02.064Z"^^xsd:dateTime;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Hunting"@en,"Poacher"@en .
+dcterms:modified "2020-12-10T14:41:08.741Z"^^xsd:dateTime;
+skos:altLabel "Poacher"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/94> a skos:Concept;
 skos:prefLabel "Grazing"@en;
 dcterms:created "2019-08-15T09:53:02.072Z"^^xsd:dateTime;
@@ -4794,6 +4795,14 @@ skos:prefLabel "Cattle_grazing"@en .
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 dcterms:modified "2020-12-05T04:22:18.228Z"^^xsd:dateTime;
 skos:altLabel "Hearding"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/646> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/636> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/636> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/646> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/646> dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2020-12-10T14:40:56.132Z"^^xsd:dateTime;
+a skos:Concept;
+skos:prefLabel "Hunting"@en;
+a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/93> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
