@@ -786,8 +786,15 @@ skos:prefLabel "Observations"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/0> skos:hasTopConcept <https://sensingclues.poolparty.biz/SCCSSOntology/88> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/88> skos:topConceptOf <https://sensingclues.poolparty.biz/SCCSSOntology/0>;
 dcterms:created "2019-08-15T09:53:02.022Z"^^xsd:dateTime;
-dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
-skos:altLabel "Finding"@en,"Findings"@en,"Note"@en,"Notes"@en,"Observation"@en,"Registration"@en,"Reporting"@en,"Sightings"@en .
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:modified "2021-01-25T20:00:57.130Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/636> dcterms:modified "2021-01-25T20:00:41.179Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/437> dcterms:modified "2021-01-25T20:01:20.090Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/446> dcterms:modified "2021-01-25T19:59:56.614Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/88> skos:altLabel "Observation"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/656> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2021-01-25T19:54:35.777Z"^^xsd:dateTime;
+skos:prefLabel "Snelheid"@nl .
 <https://sensingclues.poolparty.biz/SCCSSOntology/89> a skos:Concept .
 <https://sensingclues.poolparty.biz/SCCSSOntology/88> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/89> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/89> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/88>;
@@ -3400,7 +3407,7 @@ a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 skos:altLabel "Livestock"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/123> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/134> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/134> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/123> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/88> dcterms:modified "2019-10-27T09:06:19.857Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/88> dcterms:modified "2021-01-27T08:45:00.607Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/134> skos:prefLabel "Sounds"@en;
 skos:altLabel "Sound"@en;
 dcterms:modified "2019-10-27T09:06:30.185Z"^^xsd:dateTime .
@@ -4924,13 +4931,6 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 a <https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/287> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/300> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/300> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/287> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/656> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
-dcterms:modified "2021-01-25T19:54:35.777Z"^^xsd:dateTime;
-skos:prefLabel "Snelheid"@nl .
-<https://sensingclues.poolparty.biz/SCCSSOntology/446> dcterms:modified "2021-01-25T19:59:56.614Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/636> dcterms:modified "2021-01-25T20:00:41.179Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:modified "2021-01-25T20:00:57.130Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/437> dcterms:modified "2021-01-25T20:01:20.090Z"^^xsd:dateTime .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
