@@ -3339,7 +3339,7 @@ skos:prefLabel "Charcoal"@en .
 a skos:Concept,<https://sensingclues.poolparty.biz/SCCSS-Ontology/Observation> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/256> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/296> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/296> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/256> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/148> skos:prefLabel "Pollame"@it .
+<https://sensingclues.poolparty.biz/SCCSSOntology/191> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/516> skos:altLabel "Bearproof gate"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/512> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/195> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
@@ -4430,7 +4430,7 @@ skos:altLabel "Slamming_door"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/134> dcterms:modified "2019-10-27T09:06:30.185Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/380> dcterms:modified "2019-12-10T21:03:12.836Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/81> dcterms:modified "2019-10-12T09:24:38.268Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/148> dcterms:modified "2019-11-23T10:36:24.427Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/148> dcterms:modified "2021-01-27T20:53:13.191Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/149> dcterms:modified "2019-11-03T10:04:49.791Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/263> dcterms:modified "2021-01-27T19:32:56.858Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/89> dcterms:modified "2020-10-09T12:09:42.055Z"^^xsd:dateTime .
@@ -4904,7 +4904,6 @@ skos:altLabel "Slamming_door"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/190> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/193> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/194> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/191> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
 }
 
 <https://sensingclues.poolparty.biz/system/customschemas> {<https://sensingclues.poolparty.biz/SCCSS-Custom-Scheme> a rdfs:Container;
