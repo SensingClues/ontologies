@@ -2029,7 +2029,7 @@ skos:prefLabel "Radica"@it,"Burl"@fr,"Gebrand"@nl .
 <https://sensingclues.poolparty.biz/SCCSSOntology/108> dcterms:modified "2021-02-10T17:19:29.185Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/109> dcterms:modified "2021-02-10T17:19:29.185Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/582> dcterms:modified "2021-02-10T17:19:29.202Z"^^xsd:dateTime .
-<https://sensingclues.poolparty.biz/SCCSSOntology/461> dcterms:modified "2021-02-17T15:48:01.569Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/461> skos:prefLabel "Points of Interest"@en .
 <https://sensingclues.poolparty.biz/SCCSSOntology/583> dcterms:modified "2021-02-10T17:19:29.202Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/462> dcterms:modified "2021-02-10T17:19:29.184Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/586> dcterms:modified "2021-02-10T17:19:29.202Z"^^xsd:dateTime .
@@ -2119,7 +2119,7 @@ skos:prefLabel "Radica"@it,"Burl"@fr,"Gebrand"@nl .
 <https://sensingclues.poolparty.biz/SCCSSOntology/631> dcterms:modified "2021-02-16T14:36:30.155Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/519> dcterms:modified "2021-02-10T17:19:29.198Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/186> skos:altLabel "Dieren"@nl .
-<https://sensingclues.poolparty.biz/SCCSSOntology/645> dcterms:modified "2021-02-10T17:19:29.204Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/645> dcterms:modified "2021-02-17T16:07:07.980Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/646> dcterms:modified "2021-02-15T10:46:19.409Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/522> dcterms:modified "2021-02-10T17:19:29.197Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/643> dcterms:modified "2021-02-10T17:19:29.185Z"^^xsd:dateTime .
@@ -3805,7 +3805,7 @@ a skos:Concept;
 dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/413> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/442> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/442> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/413> .
-<https://sensingclues.poolparty.biz/SCCSSOntology/461> skos:prefLabel "Infrastructure"@en;
+<https://sensingclues.poolparty.biz/SCCSSOntology/461> skos:altLabel "Infrastructure"@en;
 skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/88>;
 dcterms:created "2019-09-23T08:42:55.319Z"^^xsd:dateTime .
 <https://sensingclues.poolparty.biz/SCCSSOntology/88> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/461> .
@@ -5514,7 +5514,7 @@ skos:altLabel "pirogue"@en;
 dcterms:modified "2021-02-17T15:47:27.735Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:prefLabel "Boot"@nl,"Bateau"@fr .
-<https://sensingclues.poolparty.biz/SCCSSOntology/461> skos:altLabel "Point of interest"@en;
+<https://sensingclues.poolparty.biz/SCCSSOntology/461> dcterms:modified "2021-02-18T14:09:22.231Z"^^xsd:dateTime;
 skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/1738> .
 <https://sensingclues.poolparty.biz/SCCSSOntology/1738> skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/461>;
 a skos:Concept;
@@ -5578,4 +5578,27 @@ dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
 skos:altLabel "Agriculture"@en;
 dcterms:modified "2021-02-17T15:57:12.617Z"^^xsd:dateTime;
 dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/645> skos:altLabel "eleveur"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/421> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/1746> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/1746> skos:prefLabel "Abandoned"@en;
+skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/421>;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:created "2021-02-17T16:07:59.919Z"^^xsd:dateTime;
+a skos:Concept .
+<https://sensingclues.poolparty.biz/SCCSSOntology/1740> dcterms:contributor <https://sensingclues.poolparty.biz/user/schakeljk>;
+dcterms:modified "2021-02-18T14:02:44.327Z"^^xsd:dateTime;
+skos:altLabel "Entry point"@en,"Entry"@en,"Exit"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/1747> a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk>;
+skos:prefLabel "Cliff"@en;
+skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/461>;
+dcterms:created "2021-02-18T14:03:56.344Z"^^xsd:dateTime .
+<https://sensingclues.poolparty.biz/SCCSSOntology/461> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/1747>;
+skos:altLabel "PoI"@en,"Point of Interest"@en .
+<https://sensingclues.poolparty.biz/SCCSSOntology/1748> skos:prefLabel "Fouraging"@en;
+dcterms:created "2021-02-18T16:30:40.973Z"^^xsd:dateTime;
+skos:broader <https://sensingclues.poolparty.biz/SCCSSOntology/636>;
+a skos:Concept;
+dcterms:creator <https://sensingclues.poolparty.biz/user/schakeljk> .
+<https://sensingclues.poolparty.biz/SCCSSOntology/636> skos:narrower <https://sensingclues.poolparty.biz/SCCSSOntology/1748> .
 }
